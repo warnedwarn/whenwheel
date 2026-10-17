@@ -27,4 +27,14 @@ genvm-lint contracts/contract.py
 
 The live workflow uses separately signed operator-controlled test wallets only to prove role isolation. It does not claim that the participants are independent organizations.
 
-StudioNet address, source digest, and finalized multi-wallet transaction evidence are recorded after deployment.
+## Verified StudioNet session
+
+- Contract: [`0xEdcAbB771Acf58c27725E9667c5Aa16A4e7c2DEB`](https://explorer-studio.genlayer.com/address/0xEdcAbB771Acf58c27725E9667c5Aa16A4e7c2DEB)
+- Live wheel: `WHEEL-1792250375`, final state `UNANIMOUS`, selected `Tue 20 Oct 2026 17:00 UTC`
+- Open wheel: [`0x7d62…e6aa`](https://explorer-studio.genlayer.com/transactions/0x7d62757c84b3840ad921f809d5819bff4c78212031279e5a9154e0659d1ae6aa)
+- First response: [`0xb9e3…76db`](https://explorer-studio.genlayer.com/transactions/0xb9e3f502a6072d2553e43e95a2fb0a1143ba9b027a400ad41ffd3338e73c76db)
+- Duplicate-response rejection: [`0x3c6b…16e1`](https://explorer-studio.genlayer.com/transactions/0x3c6b1f5d7999110e340bd15d8d50305c80ce9a9e4d9ef9f543c0de6765216e1e)
+- Second response: [`0x6701…cfb`](https://explorer-studio.genlayer.com/transactions/0x6701a61732678caf306a8be04202a91dae15beb617162b31e1f1d4fd1eb27cfb)
+- Finalization: [`0xefb7…129a`](https://explorer-studio.genlayer.com/transactions/0xefb7fedb2ac9d6814f4f68b94d808e095ce232fb65e580b621289a60d744129a)
+
+Exact source digest and stored multi-wallet readback are preserved in `deployment.json` and `evidence/live-run.json`.

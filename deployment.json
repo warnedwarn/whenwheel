@@ -1,0 +1,11 @@
+{
+  "network": "StudioNet",
+  "account": "warnedwarn",
+  "contractAddress": "0xEdcAbB771Acf58c27725E9667c5Aa16A4e7c2DEB",
+  "deploymentTransaction": "0x4f5a455edaf34a97d39287cf0d50ff58d61aea6064347a4c67aad29e51f067bd",
+  "deploymentConsensus": "MAJORITY_AGREE",
+  "deploymentExecution": "SUCCESS",
+  "sourceSha256": "ed758dc0dd15dd678c591d96cb54e1436e9fef5839ec5946d92b5d73515f71cd",
+  "sourceCommit": "3eef29daa52402a53a23769640552c077d07a172",
+  "repository": "https://github.com/warnedwarn/whenwheel"
+}

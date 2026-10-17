@@ -1,0 +1,50 @@
+{
+  "wheelId": "WHEEL-1792250375",
+  "transactions": {
+    "openWheel": "0x7d62757c84b3840ad921f809d5819bff4c78212031279e5a9154e0659d1ae6aa",
+    "firstAvailability": "0xb9e3f502a6072d2553e43e95a2fb0a1143ba9b027a400ad41ffd3338e73c76db",
+    "duplicateRejected": "0x3c6b1f5d7999110e340bd15d8d50305c80ce9a9e4d9ef9f543c0de6765216e1e",
+    "secondAvailability": "0x6701a61732678caf306a8be04202a91dae15beb617162b31e1f1d4fd1eb27cfb",
+    "finalizeWheel": "0xefb7fedb2ac9d6814f4f68b94d808e095ce232fb65e580b621289a60d744129a"
+  },
+  "negativeExecution": "ERROR",
+  "stateUnchangedAfterDuplicate": true,
+  "finalWheel": {
+    "chosen_index": 1,
+    "chosen_slot": "Tue 20 Oct 2026 17:00 UTC",
+    "id": "WHEEL-1792250375",
+    "minimum": 2,
+    "organizer": "0x013A0745a3b2DbF87f4AB377266fCcb7e6eEC88A",
+    "responses": [
+      {
+        "confidence": "CLEAR",
+        "indexes": [
+          0,
+          1
+        ],
+        "note": "Participant explicitly said they can join Tuesday at 15:00 UTC or Tuesday at 17:00 UTC.",
+        "participant": "0xcafa30bf94d4fb01146588a1b7901bd85e7dbd0f"
+      },
+      {
+        "confidence": "CLEAR",
+        "indexes": [
+          1,
+          3
+        ],
+        "note": "Participant is available on Tuesday at 17:00 UTC and Thursday at 10:00 UTC.",
+        "participant": "0xad049e0edc298c97552ed60071a35bfc60181fd4"
+      }
+    ],
+    "slots": [
+      "Tue 20 Oct 2026 15:00 UTC",
+      "Tue 20 Oct 2026 17:00 UTC",
+      "Wed 21 Oct 2026 09:00 UTC",
+      "Thu 22 Oct 2026 10:00 UTC"
+    ],
+    "state": "UNANIMOUS",
+    "support": 2,
+    "timezone": "UTC",
+    "title": "Editorial review"
+  },
+  "fixtureDisclosure": "The organizer and participants are separately signed operator-controlled technical wallets."
+}
