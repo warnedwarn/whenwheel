@@ -29,6 +29,8 @@ The live workflow uses separately signed operator-controlled test wallets only t
 
 ## Verified StudioNet session
 
+- Public application: https://whenwheel.pages.dev/
+- Source: https://github.com/warnedwarn/whenwheel
 - Contract: [`0xEdcAbB771Acf58c27725E9667c5Aa16A4e7c2DEB`](https://explorer-studio.genlayer.com/address/0xEdcAbB771Acf58c27725E9667c5Aa16A4e7c2DEB)
 - Live wheel: `WHEEL-1792250375`, final state `UNANIMOUS`, selected `Tue 20 Oct 2026 17:00 UTC`
 - Open wheel: [`0x7d62…e6aa`](https://explorer-studio.genlayer.com/transactions/0x7d62757c84b3840ad921f809d5819bff4c78212031279e5a9154e0659d1ae6aa)

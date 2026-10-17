@@ -7,4 +7,4 @@
 | Winner derived in code | `finalize_wheel` | deterministic tests + chosen index `1` | PASS |
 | Minimum turnout enforced | `finalize_wheel` | guard asserted in source test | PASS |
 | Multi-wallet lifecycle | open/cast/finalize | three signer addresses in live proof | PASS |
-| Final browser uses deployed address | `docs/index.html` | static source check; public-build QA pending publication | PASS |
+| Final browser uses deployed address | `docs/index.html` | canonical Pages build loaded live wheel; no console errors or horizontal overflow | PASS |
